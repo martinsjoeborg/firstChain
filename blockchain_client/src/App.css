@@ -1,0 +1,25 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #f1f1f1;
+  color: #333;
+  font-size: 24px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.title,
+.form {
+  text-align: center;
+  margin-bottom: 20px;
+}
