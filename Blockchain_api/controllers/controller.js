@@ -1,4 +1,4 @@
-const Blockchain = require('../Blockchain');
+const Blockchain = require('../blockchain/Blockchain');
 const blockchain = new Blockchain();
 
 const getChain = (req, res) => {

@@ -1,4 +1,4 @@
-const Block = require('./block');
+const Block = require('./Block');
 const crypto = require('./hash');
 
 class Blockchain {
