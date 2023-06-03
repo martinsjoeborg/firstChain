@@ -22,6 +22,7 @@ const express = require('express');
 const Broker = require('./messageBroker/Broker');
 const Blockchain = require('./blockchain/Blockchain');
 const axios = require('axios');
+const cors = require('cors');
 
 const app = express();
 
@@ -45,6 +46,7 @@ const syncData = async () => {
 
 //Middleware
 app.use(express.json());
+app.use(cors());
 
 //Endpoints
 app.get('/1/blocks', (req, res) => {
